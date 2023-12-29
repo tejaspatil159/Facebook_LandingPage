@@ -36,7 +36,7 @@ const Form = () => {
 
   return (
     <div>
-      <form className="" onSubmit={submitHandler}>
+      <form action="../assets/data.json" onSubmit={submitHandler}>
         <label>
           Username:
           <input
